@@ -1,3 +1,4 @@
+
 :root {
     --text-color: #DBE4EF;
     --card-front-color: #144480;
@@ -82,4 +83,12 @@ container {
     margin-top: 1rem;
     padding: 2rem;
     margin-top: 4rem;
+}
+
+#container {
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 4rem;
+     gap: 3rem;
 }
